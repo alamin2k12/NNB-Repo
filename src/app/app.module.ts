@@ -16,6 +16,8 @@ import { AboutComponent } from './about/about.component';
 import { ProductsComponent } from './products/products.component';
 import { ContactComponent } from './contact/contact.component';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -35,7 +37,9 @@ import { AdminPanelComponent } from './admin-panel/admin-panel.component';
     AboutComponent,
     ProductsComponent,
     ContactComponent,
-    AdminPanelComponent
+    AdminPanelComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   bootstrap: [ AppComponent ]
 })
